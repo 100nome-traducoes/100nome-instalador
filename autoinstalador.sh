@@ -2,7 +2,7 @@
 
 # ============================================================
 #  AUTOINSTALADOR 100NOME
-#  Copyright (C) 2024  João Frade
+#  Copyright (C) 2026  João Frade
 #  Licenciado sob a GNU General Public License v3.0
 #  https://100nome.netlify.app
 # ============================================================
