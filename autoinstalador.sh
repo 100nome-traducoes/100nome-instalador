@@ -4,7 +4,7 @@
 #  AUTOINSTALADOR 100NOME
 #  Copyright (C) 2024  João Frade
 #  Licenciado sob a GNU General Public License v3.0
-#  https://100nome.codeberg.page
+#  https://100nome.netlify.app
 # ============================================================
 
 export LANG=pt_PT.UTF-8
@@ -22,7 +22,7 @@ CYAN='\033[0;36m'           # ciano — progresso / info
 NC='\033[0m'                # reset
 
 # ── Constantes ───────────────────────────────────────────────
-readonly SCRIPT_VERSION="1.6.0"
+readonly SCRIPT_VERSION="2.0"
 readonly SP_FOLDER="_100NOME"
 readonly PACK_START="Pacote 100Nome"
 readonly PACK_DEFAULT="pacote normal"
@@ -31,7 +31,7 @@ readonly FILE_HELP="INSTALAR.html"
 readonly FILE_CONFIG=".autoinstalacao"
 readonly BACKUP_PATH="${SP_FOLDER}/original"
 readonly BACKUP_PARTIAL_SUFFIX=" - parcial"
-readonly SITE_BASE="https://100nome.codeberg.page"
+readonly SITE_BASE="https://100nome.netlify.app"
 readonly DISCORD_URL="https://discord.gg/Xv7ax2VkEp"
 
 # ── Variáveis de estado ──────────────────────────────────────
