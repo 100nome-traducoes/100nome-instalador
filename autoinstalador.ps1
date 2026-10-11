@@ -1207,7 +1207,7 @@ function End-Menu {
                     Write-Info "A lançar $gameName..."
                     Write-Gray "Aguarda enquanto o jogo carrega. Este terminal voltará quando fechares o jogo."
                     Write-Gap
-                    if ($urlEnd) { Start-Process "$SITE_BASE/$urlEnd?source=installer&played=1&os=windows" }
+                    if ($urlEnd) { Start-Process "$SITE_BASE/jogo/$urlEnd?source=installer&played=1&os=windows" }
                     $proc = Start-Process $exeFile -PassThru
                     $proc.WaitForExit()
                     Write-Gap
@@ -1228,7 +1228,7 @@ function End-Menu {
                 Write-Gap
                 if ($installed -and $urlEnd) {
                     Write-Gray "A abrir página do jogo no site 100Nome..."
-                    Start-Process "$SITE_BASE/$urlEnd?source=installer&installed=1&os=windows"
+                    Start-Process "$SITE_BASE/jogo/$urlEnd?source=installer&installed=1&os=windows"
                 }
                 Write-Gap
                 Write-Ok "Obrigado por usares o 100Nome. Boa sorte!"
