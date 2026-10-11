@@ -14,7 +14,7 @@ param(
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
 # ── Constantes ───────────────────────────────────────────────
-$SCRIPT_VERSION     = "2.1.0"
+$SCRIPT_VERSION     = "2.1.1"
 $SP_FOLDER          = "_100NOME"
 $PACK_START         = "Pacote 100Nome"
 $PACK_DEFAULT       = "pacote normal"

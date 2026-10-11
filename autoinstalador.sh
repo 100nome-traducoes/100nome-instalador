@@ -22,7 +22,7 @@ CYAN='\033[0;36m'           # ciano — progresso / info
 NC='\033[0m'                # reset
 
 # ── Constantes ───────────────────────────────────────────────
-readonly SCRIPT_VERSION="2.1.0"
+readonly SCRIPT_VERSION="2.1.1"
 readonly SP_FOLDER="_100NOME"
 readonly PACK_START="Pacote 100Nome"
 readonly PACK_DEFAULT="pacote normal"
